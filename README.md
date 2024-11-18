@@ -3,7 +3,7 @@
 ### Setup
 
 - In **UploadClient.cpp** in the *uploadFile()* function adjust the variables `host`, `endpoint`, `port`, and `filePath`/`fileName` as necessary
-- In the root of the GitHub repo run this command: `g++ -std=c++20 -o Client Activity.cpp AsyncTask.cpp UploadClient.hpp`
+- In the root of the GitHub repo run this command: `g++ -std=c++20 -o Client Activity.cpp AsyncTask.cpp UploadClient.cpp`
 - Then enter: `./Client` to run the program
 
 ### Issues
