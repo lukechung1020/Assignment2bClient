@@ -53,10 +53,10 @@ string UploadClient::uploadFile() {
 
             // Add form fields
             addFormField(requestBodyStream, "caption", "logo", boundary);
-            addFormField(requestBodyStream, "date", "10_16_2024", boundary);
+            addFormField(requestBodyStream, "date", "10-16-2024", boundary);
 
             // Add file part
-            addFilePart(requestBodyStream, "File", filePath, fileName, boundary, "image/png");
+            addFilePart(requestBodyStream, "file", filePath, fileName, boundary, "image/png");
 
             // Close the multipart boundary
             requestBodyStream << "--" << boundary << "--\r\n";
